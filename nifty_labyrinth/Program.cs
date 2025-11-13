@@ -6,13 +6,12 @@ using labyrinth;
  * do NOT edit the value of YourName. Changing YourName will change which
  * maze you get back, which might invalidate all your hard work!
 */
-string YOUR_NAME = "TODO: Replace this string with your name.";
-
+string MathiasGranja = "Mathias Granja";
 /* Change these constants to contain the paths out of your mazes. */
 string PATH_OUT_OF_MAZE = "WNWSSSNNNEEESSWWSNEESW";
 string PATH_OUT_OF_TWISTY_MAZE = "SSEENNEWE";
 
-MazeCell startLocation = MazeUtilities.mazeFor(YOUR_NAME);
+MazeCell startLocation = MazeUtilities.mazeFor(MathiasGranja);
 
 /* Set a breakpoint here to explore your maze! */
 
@@ -26,7 +25,7 @@ Console.WriteLine("Sorry, but you're still stuck in your labyrinth.");
 }
 
 
-MazeCell twistyStartLocation = MazeUtilities.twistyMazeFor(YOUR_NAME);
+MazeCell twistyStartLocation = MazeUtilities.twistyMazeFor(MathiasGranja);
 
 /* Set a breakpoint here to explore your twisty maze! */
 
